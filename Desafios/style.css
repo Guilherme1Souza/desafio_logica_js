@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.title {
+    text-align: center;
+}
+
+.desafios {
+ display: flex;
+ flex-direction: column;
+ line-height: 20px;
+ letter-spacing: 2px;
+ margin: 50px 12px;
+}
+
+.input__1 {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 90px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
